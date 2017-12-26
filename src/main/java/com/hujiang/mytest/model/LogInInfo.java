@@ -4,11 +4,11 @@ import lombok.Data;
 
 import java.io.Serializable;
 
-
+/**
+ * 用户登陆信息类
+ * */
 @Data
 public class LogInInfo implements Serializable {
-
-    public static final String secret="xxxxx";
 
     private String name;
 

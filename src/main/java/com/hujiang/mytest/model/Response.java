@@ -2,9 +2,11 @@ package com.hujiang.mytest.model;
 
 import lombok.Data;
 
-import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
 
+/**
+ * 接口统一返回实体
+ * */
 @Data
 public class Response<T> implements Serializable {
     private int status;
